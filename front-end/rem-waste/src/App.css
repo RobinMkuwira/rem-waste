@@ -1,0 +1,28 @@
+.main-color{
+  background-color: #434344;
+}
+
+.main-ring-color {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: #434344;
+}
+
+.main-color-border {
+  --tw-border-opacity: 1;
+  border-color: #434344;
+}
+
+.loader {
+  height: 2px;
+  width: 100%;
+  --c:no-repeat linear-gradient(#C38154 0 0);
+  background: var(--c),var(--c),#F9E0BB;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+}
+
+@keyframes l16 {
+  0%   {background-position:-150% 0,-150% 0}
+  66%  {background-position: 250% 0,-150% 0}
+  100% {background-position: 250% 0, 250% 0}
+}
