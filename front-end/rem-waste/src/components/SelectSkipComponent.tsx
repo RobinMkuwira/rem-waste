@@ -190,7 +190,7 @@ function SelectSkipComponent() {
                 <div className='relative grid grid-cols-1 md:grid-cols-4 gap-8'>
                     {
                         skipsData.map((data, i) => (
-                            <div className={ selectedSkip !== null && selectedSkip !== undefined && selectedSkip.id !== undefined && selectedSkip.id !== null && selectedSkip.id === data.id ? 'border-4 shadow-md border-yellow-500' : 'border shadow-md'} key={data.id}>
+                            <div onClick={() => {skipSelection(data)}} className={ selectedSkip !== null && selectedSkip !== undefined && selectedSkip.id !== undefined && selectedSkip.id !== null && selectedSkip.id === data.id ? 'border-4 shadow-md border-yellow-500' : 'border shadow-md'} key={data.id}>
                                 {/* the skip image */}
                                 <div>
                                     <img className='w-full h-60' src={data.image} alt='skip'/>
