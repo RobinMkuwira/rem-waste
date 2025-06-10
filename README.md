@@ -4,7 +4,7 @@ project name: rem-waste
 # to run the project
 1. install node versing 18.15.0
 2. clone the project from https://github.com/RobinMkuwira/rem-waste.git
-3. cd into the project /front-end/rem-waste
+3. open the terminal then cd into the project /front-end/rem-waste
 4. run npm i (to install the npm packages)
 5. then run npm start (to start the project)
 
