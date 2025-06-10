@@ -1,8 +1,14 @@
 # rem-waste
 project name: rem-waste
 
-## my approach
+# to run the project
+1. install node versing 18.15.0
+2. clone the project from https://github.com/RobinMkuwira/rem-waste.git
+3. cd into the project /front-end/rem-waste
+4. run npm i
+5. then run npm start
 
+## my approach
 1. project setup
    a. used node.js version 18.15.0
    b. used react.js
@@ -39,15 +45,6 @@ and show it to the user
 c. Users can also sort the data by clicking the icon that is to the left of the search field to sort it in an ascending or descending order using the skip's size.
 
 d. the system also uses redux and redux persist to save the entered details so that the user's can be accessed later on.
-
-
-# to run the project
-1. install node versing 18.15.0
-2. clone the project from https://github.com/RobinMkuwira/rem-waste.git
-3. cd into the project /front-end/rem-waste
-4. run npm i
-5. then run npm start
-
 
 
 regards,
