@@ -18,7 +18,7 @@ project name: rem-waste
    a. rxjs
       - for fetching data from the data source (https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft)
    b. tailwindcss
-      - for styling the page select skip page
+      - for styling the select skip page
    c. redux & redux persist
       - for storing and persisting the state when a skip is selected
       - once a selected skip is selected even after reloading the page the saved skip will still be selected.
